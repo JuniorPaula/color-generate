@@ -23,6 +23,12 @@ body {
     border-radius: 10px;
 }
 
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #colorPanel {
     background-color: none;
     outline: none;
@@ -51,4 +57,20 @@ body {
     height: 40px;
     width: 120px;
     padding: 0 10px;
+}
+
+/* responsive */
+@media (max-width: 600px) {
+    .container {
+        width: 320px;
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+    .content {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
